@@ -10,212 +10,296 @@
     }
 
 
+    .MQQ-Container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     width: 100%;
+     height: auto;
+     overflow-x: hidden;
+     background-color: ;
+    }
+
+
+    .MQQ-Title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: 5em;
+      background-color: ;
+    }
+
+    .MQQ-Title h1 {
+      font-size: 1.5em;
+    }
+
+    .MQQ-Title p {
+      vertical-align: baseline;
+      padding: 7px 0px 0px 5px;
+      font-size: 0.8em;
+    }
+
+
+    .MQQ-Instructions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      margin: 10px 0px 0px 0px;
+      width: 100%;
+      height: 5em;
+      background-color: ;
+    }
+
+    .MQQ-Instructions h4 {
+      text-align: center;
+      width: 100%;
+    }
+
+    .MQQ-Instructions p {
+      text-align: center;
+      width: 100%;
+    }
+
+
+    .MQQ-Img-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 50px 0px 30px 0px;
+      background-color: ;
+    }
+
+    #MQQ-Img {
+      width: 50%;
+      height: auto;
+    }
+
+
+    #MQQ-Knock-Knock-Form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 10px 0px 0px 0px;
+      background-color: ;
+    }
+
+    #MQQ-Knock-Knock-Form p {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+
+
+    .Knock-Knock-Input-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+    .Knock-Knock-Input-Wrapper input {
+      margin: 0px 0px 0px 0px;
+      padding: 5px 0px 5px 0px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+    .Knock-Knock-Button-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+
+    .Knock-Knock-Button-Wrapper button {
+      margin: 10px 0px 0px 0px;
+      padding: 5px 5px 5px 5px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+
+
+
+    #MQQ-Whos-There-Form {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 10px 0px 0px 0px;
+      background-color: ;
+    }
+
+    #MQQ-Whos-There-Form p {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+
+    .Whos-There-Input-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+    .Whos-There-Input-Wrapper input {
+      margin: 0px 0px 0px 0px;
+      padding: 5px 0px 5px 0px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+    .Whos-There-Button-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+
+    .Whos-There-Button-Wrapper button {
+      margin: 10px 0px 0px 0px;
+      padding: 5px 5px 5px 5px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+    #MQQ-Who-Form {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 10px 0px 0px 0px;
+      background-color: ;
+    }
+
+    #MQQ-Who-Form p {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+
+    .Who-Input-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+    .Who-Input-Wrapper input {
+      margin: 0px 0px 0px 0px;
+      padding: 5px 0px 5px 0px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+    .Who-Button-Wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+
+
+    .Who-Button-Wrapper button {
+      margin: 10px 0px 0px 0px;
+      padding: 5px 5px 5px 5px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
+    #End-Result {
+      display: none;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      margin: 10px 0px 5px 0px;
+      background-color: ;
+    }
+
+    #End-Result form {
+      text-align: center;
+    }
+
+    #End-Result h1 {
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+    }
+
+    #End-Result button {
+      margin: 10px 0px 0px 0px;
+      padding: 5px 5px 5px 5px;
+      border: solid orange 1px;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+
 @media only screen and (min-width: 320px) and (max-width: 740px) {
 
 
-.MQQ-Container {
- display: flex;
- justify-content: center;
- align-items: center;
- flex-wrap: wrap;
- box-sizing: border-box;
- width: 100%;
- height: auto;
- overflow-x: hidden;
- background-color: ;
-}
 
-
-.MQQ-Title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: 5em;
-  background-color: pink;
-}
-
-.MQQ-Title h1 {
-  font-size: 1.5em;
-}
-
-.MQQ-Title p {
-  vertical-align: baseline;
-  padding: 7px 0px 0px 5px;
-  font-size: 0.8em;
-}
-
-
-.MQQ-Instructions {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  margin: 10px 0px 0px 0px;
-  width: 100%;
-  height: 5em;
-  background-color: orange;
-}
-
-.MQQ-Instructions h4 {
-  text-align: center;
-  width: 100%;
-}
-
-.MQQ-Instructions p {
-  text-align: center;
-  width: 100%;
-}
-
-
-.MQQ-Img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 10px 0px 0px 0px;
-  background-color: ;
-}
-
-.MQQ-Img img {
-  width: 50%;
-  height: auto;
-}
-
-
-.MQQ-Knock-Knock-Form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 10px 0px 0px 0px;
-  background-color: ;
-}
-
-.MQQ-Knock-Knock-Form p {
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
-.MQQ-Knock-Knock-Form form {
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px;
-  width: 100%;
-}
-
-
-.MQQ-Knock-Knock-Form button {
-
-}
-
-
-.MQQ-Whos-There-Form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 10px 0px 0px 0px;
-  background-color: ;
-}
-
-.MQQ-Whos-There-Form p {
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
-.MQQ-Whos-There-Form form {
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px;
-  width: 100%;
-}
-
-
-.MQQ-Whos-There-Form button {
-
-}
-
-
-.MQQ-Who-Form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 10px 0px 0px 0px;
-  background-color: ;
-}
-
-.MQQ-Who-Form p {
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
-.MQQ-Who-Form form {
-  text-align: center;
-  box-sizing: border-box;
-  padding: 10px;
-  width: 100%;
-}
-
-.MQQ-Who-Form button {
-
-}
-
-
-.End-Result {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  width: 100%;
-  height: auto;
-  margin: 10px 0px 5px 0px;
-  background-color: ;
-}
-
-.End-Result h1 {
-  text-align: center;
-  padding: 10px;
-  width: 100%;
-}
-
-.End-Result button {
-
-}
-
-/* All input elements */
-input {
-  padding: 5px 0px 5px 0px;
-  border: solid orange 1px;
-  border-radius: 5px;
-  background-color: orange;
-}
-
-/* All Button elements */
-button {
-padding: 10px;
-margin: 15px 0px 5px 0px;
-border: solid orange 1px;
-border-radius: 5px;
-background-color: orange;
 }
 
 

@@ -23,45 +23,53 @@
       </p>
     </div>
 
-    <div class="MQQ-Img">
-      <img src="./Images/start.svg" />
+    <div class="MQQ-Img-Wrapper">
+      <img id="MQQ-Img" src="./Images/start.svg" />
     </div>
 
-    <div class="MQQ-Knock-Knock-Form">
+    <div id="MQQ-Knock-Knock-Form">
       <p>
         Type your knock knock joke:
       </p>
-      <form>
-        <input type="text"/> <br />
-        <button>Submit</button>
-      </form>
+      <div class="Knock-Knock-Input-Wrapper">
+        <input id="Knock-Knock-Input" type="text" value=""/>
+      </div>
+      <div class="Knock-Knock-Button-Wrapper">
+        <button onclick="handleKnockInputs()">Submit</button>
+      </div>
     </div>
 
-    <div class="MQQ-Whos-There-Form">
+    <div id="MQQ-Whos-There-Form">
       <p>
         Who's there?
       </p>
-      <form>
-        <input type="text"/> <br />
-        <button>Submit</button>
-      </form>
+      <div class="Whos-There-Input-Wrapper">
+        <input id="Whos-There-Input" type="text" value=""/>
+      </div>
+      <div class="Whos-There-Button-Wrapper">
+        <button onclick="handleWhosThereInputs()">Submit</button>
+      </div>
     </div>
 
-    <div class="MQQ-Who-Form">
-      <p>
+    <div id="MQQ-Who-Form">
+      <p id="Who-Para">
         (User input goes here) Who?
       </p>
-      <form>
-        <input type="text"/> <br />
-        <button>Submit</button>
-      </form>
+      <div class="Who-Input-Wrapper">
+        <input type="text" id="Who-Input" value=""/>
+      </div>
+      <div class="Who-Button-Wrapper">
+        <button onclick="handleEndResult()">Submit</button>
+      </div>
     </div>
 
-    <div class="End-Result">
-      <h1>
-        Your made Quackers (Result goes here)
-      </h1>
-        <button>Submit</button>
+    <div id="End-Result">
+        <h1 id="End-Result-h1">
+          Your made Quackers (Result goes here)
+        </h1>
+        <form>
+          <button id="Result-Button">Submit</button>
+        </form>
     </div>
 
   </body>
