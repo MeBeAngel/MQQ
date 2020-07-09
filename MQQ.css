@@ -10,7 +10,14 @@
     }
 
 
+    .MQQ-Container {
 
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+
+    }
 
 
     .MQQ-Instructions {
@@ -289,7 +296,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 740px) {
 
-/*
+
   .MQQ-Instructions {
     display: flex;
     justify-content: center;
@@ -304,7 +311,7 @@
 
   .MQQ-Instructions h4 {
     text-align: center;
-    width: 100%;
+    width: 95%;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.9em;
     color: black;
@@ -312,19 +319,13 @@
 
   .MQQ-Instructions p {
     text-align: center;
-    width: 100%;
+    width: 95%;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.6em;
     font-weight: 400;
     color: black;
   }
 
-  #MQQ-Img {
-    width: 200px;
-
-    height: auto;
-  }
-  */
 
 }
 
