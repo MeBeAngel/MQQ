@@ -38,11 +38,11 @@
     background-color: white;
   }
 
-  .MQQ-Instructions h4 {
+  .MQQ-Instructions h1 {
     text-align: center;
     width: 100%;
     font-family: 'Libre Baskerville', serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: black;
   }
 
@@ -50,7 +50,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Libre Baskerville', serif;
-    font-size: 0.7em;
+    font-size: 1em;
     font-weight: 400;
     color: black;
   }
