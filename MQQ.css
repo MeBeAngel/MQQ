@@ -41,15 +41,16 @@
     text-align: center;
     width: 100%;
     font-family: 'Libre Baskerville', serif;
-    font-size: 2rem;
+    font-size: 1.1rem;
     color: black;
   }
 
   .MQQ-Instructions p {
     text-align: center;
     width: 100%;
+    margin-top: 10px;
     font-family: 'Libre Baskerville', serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     color: black;
   }
