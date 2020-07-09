@@ -1,16 +1,18 @@
 
 "use strict";
 
-
+function removeSpace (str) {
+  return str.replace(/\s/g,'');
+};
 
 
 function handleKnockInputs () {
 
-    const knockKnockInput = document.getElementById("Knock-Knock-Input");
+    let knockKnockInput = document.getElementById("Knock-Knock-Input");
 
-    const knockKnock = "knock knock";
+    let knockKnock = "knock knock";
 
-    if (knockKnockInput.value.toUpperCase() === knockKnock.toUpperCase()) {
+    if (removeSpace(knockKnockInput.value.toUpperCase()) === removeSpace(knockKnock.toUpperCase())) {
       document.getElementById("MQQ-Knock-Knock-Form").style.display = "none";
       document.getElementById("MQQ-Img").src = "./Images/think.PNG";
       document.getElementById("MQQ-Whos-There-Form").style.display = "flex";
