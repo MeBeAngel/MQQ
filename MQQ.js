@@ -1,62 +1,46 @@
 
+"use strict";
+
+
+
 
 function handleKnockInputs () {
 
-    const knockKnockInput = document.getElementById("Knock-Knock-Input").value;
+    const knockKnockInput = document.getElementById("Knock-Knock-Input");
 
     const knockKnock = "knock knock";
 
-    const updateWhosThereDiv = document.getElementById("MQQ-Whos-There-Form").style.display = "flex";
-
-    const updateImage = document.getElementById("MQQ-Img").src = "./Images/think.PNG";
-
-    const removeKnockKnockDiv = document.getElementById("MQQ-Knock-Knock-Form").style.display = "none";
-
-
-    if (knockKnockInput.toUpperCase() === knockKnock.toUpperCase()) {
-      removeKnockKnockDiv;
-      updateWhosThereDiv;
-      updateImage;
-
+    if (knockKnockInput.value.toUpperCase() === knockKnock.toUpperCase()) {
+      document.getElementById("MQQ-Knock-Knock-Form").style.display = "none";
+      document.getElementById("MQQ-Img").src = "./Images/think.PNG";
+      document.getElementById("MQQ-Whos-There-Form").style.display = "flex";
   }
     else {
-           alert('Thats not a knock knock joke!');
-         }
+      alert("Thats not a knock knock joke!");
+    }
+
+
 };
-
-
-
-
-
-
-
-
 
 
 
 
 function handleWhosThereInputs () {
 
-  const whosThereInput = document.getElementById('Whos-There-Input').value;
+  const whosThereInput = document.getElementById('Whos-There-Input');
 
   const letters = /^[A-Za-z" "?!]+$/;
 
   const who = " who?";
 
-  const removeWhosThereDiv = document.getElementById("MQQ-Whos-There-Form").style.display = "none";
 
-  const updatePara = document.getElementById('Who-Para').innerHTML = whosThereInput + who;
-
-  const updateWhoDiv = document.getElementById("MQQ-Who-Form").style.display = "flex";
-
-
-  if (whosThereInput.match(letters)) {
-    removeWhosThereDiv;
-    updatePara;
-    updateWhoDiv;
+  if (whosThereInput.value.match(letters)) {
+    document.getElementById("MQQ-Whos-There-Form").style.display = "none";
+    document.getElementById('Who-Para').innerHTML = whosThereInput.value + who;
+    document.getElementById("MQQ-Who-Form").style.display = "flex";
   } else {
-    alert('Thats not a knock knock joke!')
-  }
+      alert("Thats not a knock knock joke!");
+  };
 
 
 
@@ -109,14 +93,14 @@ function randomResult () {
 
 function handleEndResult () {
 
-  const whoInput = document.getElementById('Who-Input').value;
+  const whoInput = document.getElementById('Who-Input');
 
   const letters = /^[A-Za-z" "?!]+$/;
 
-  if (whoInput.match(letters)) {
+  if (whoInput.value.match(letters)) {
     randomResult();
   }
   else {
-    alert('Thats not a knock knock joke!')
+
   }
 }

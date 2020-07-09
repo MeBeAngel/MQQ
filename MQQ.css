@@ -10,38 +10,7 @@
     }
 
 
-    .MQQ-Container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
-     box-sizing: border-box;
-     width: 100%;
-     height: auto;
-     overflow-x: hidden;
-     background-color: ;
-    }
 
-
-    .MQQ-Title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-sizing: border-box;
-      width: 100%;
-      height: 5em;
-      background-color: ;
-    }
-
-    .MQQ-Title h1 {
-      font-size: 1.5em;
-    }
-
-    .MQQ-Title p {
-      vertical-align: baseline;
-      padding: 7px 0px 0px 5px;
-      font-size: 0.8em;
-    }
 
 
     .MQQ-Instructions {
@@ -53,17 +22,24 @@
       margin: 10px 0px 0px 0px;
       width: 100%;
       height: 5em;
-      background-color: ;
+      background-color: white;
     }
 
     .MQQ-Instructions h4 {
       text-align: center;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 1em;
+      color: black;
     }
 
     .MQQ-Instructions p {
       text-align: center;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.7em;
+      font-weight: 400;
+      color: black;
     }
 
 
@@ -100,6 +76,8 @@
       text-align: center;
       padding: 10px;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.8em;
     }
 
 
@@ -116,8 +94,8 @@
 
     .Knock-Knock-Input-Wrapper input {
       margin: 0px 0px 0px 0px;
-      padding: 5px 0px 5px 0px;
-      border: solid orange 1px;
+      padding: 5px 5px 5px 5px;
+      border: solid green 2px;
       border-radius: 5px;
       background-color: orange;
     }
@@ -138,8 +116,10 @@
     .Knock-Knock-Button-Wrapper button {
       margin: 10px 0px 0px 0px;
       padding: 5px 5px 5px 5px;
-      border: solid orange 1px;
+      border: solid green 2px;
       border-radius: 5px;
+      font-weight: bold;
+      color: green;
       background-color: orange;
     }
 
@@ -163,6 +143,8 @@
       text-align: center;
       padding: 10px;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.8em;
     }
 
     .Whos-There-Input-Wrapper {
@@ -178,8 +160,8 @@
 
     .Whos-There-Input-Wrapper input {
       margin: 0px 0px 0px 0px;
-      padding: 5px 0px 5px 0px;
-      border: solid orange 1px;
+      padding: 5px 5px 5px 5px;
+      border: solid green 2px;
       border-radius: 5px;
       background-color: orange;
     }
@@ -200,8 +182,10 @@
     .Whos-There-Button-Wrapper button {
       margin: 10px 0px 0px 0px;
       padding: 5px 5px 5px 5px;
-      border: solid orange 1px;
+      border: solid green 2px;
       border-radius: 5px;
+      font-weight: bold;
+      color: green;
       background-color: orange;
     }
 
@@ -222,6 +206,8 @@
       text-align: center;
       padding: 10px;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 0.8em;
     }
 
     .Who-Input-Wrapper {
@@ -237,8 +223,8 @@
 
     .Who-Input-Wrapper input {
       margin: 0px 0px 0px 0px;
-      padding: 5px 0px 5px 0px;
-      border: solid orange 1px;
+      padding: 5px 5px 5px 5px;
+      border: solid green 2px;
       border-radius: 5px;
       background-color: orange;
     }
@@ -259,8 +245,10 @@
     .Who-Button-Wrapper button {
       margin: 10px 0px 0px 0px;
       padding: 5px 5px 5px 5px;
-      border: solid orange 1px;
+      border: solid green 2px;
       border-radius: 5px;
+      font-weight: bold;
+      color: green;
       background-color: orange;
     }
 
@@ -285,22 +273,21 @@
       text-align: center;
       padding: 10px;
       width: 100%;
+      font-family: 'Libre Baskerville', serif;
     }
 
     #End-Result button {
       margin: 10px 0px 0px 0px;
       padding: 5px 5px 5px 5px;
-      border: solid orange 1px;
+      border: solid green 2px;
       border-radius: 5px;
+      font-weight: bold;
+      color: green;
       background-color: orange;
     }
 
 
 @media only screen and (min-width: 320px) and (max-width: 740px) {
-
-
-
-}
 
 
 
