@@ -38,9 +38,15 @@ function handleWhosThereInputs () {
     document.getElementById("MQQ-Whos-There-Form").style.display = "none";
     document.getElementById('Who-Para').innerHTML = whosThereInput.value + who;
     document.getElementById("MQQ-Who-Form").style.display = "flex";
-  } else {
-      alert("Thats not a knock knock joke!");
-  };
+  }
+
+  else if (whosThereInput.value === ""){
+      alert("Please type something");
+  }
+
+  else {
+    alert("you suck")
+  }
 
 
 

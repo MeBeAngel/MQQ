@@ -289,27 +289,161 @@
 
 @media only screen and (min-width: 320px) and (max-width: 740px) {
 
+  .MQQ-Instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 5em;
+    background-color: ;
+  }
 
+  .MQQ-Instructions h4 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.9em;
+    color: black;
+  }
+
+  .MQQ-Instructions p {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.6em;
+    font-weight: 400;
+    color: black;
+  }
+
+  #MQQ-Img {
+    width: 200px;
+
+    height: auto;
+  }
 
 }
 
 
 @media only screen and (min-width: 500px) and (max-width: 740px) {
 
+  .MQQ-Instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 5em;
+    background-color: ;
+  }
 
+  .MQQ-Instructions h4 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    color: black;
+  }
+
+  .MQQ-Instructions p {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: black;
+  }
+
+  #MQQ-Img {
+    width: 200px;
+
+    height: auto;
+  }
 
 }
 
 
 @media only screen and (min-width: 741px) and (max-width: 1023px) {
 
+  .MQQ-Instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 5em;
+    background-color: ;
+  }
 
+
+  .MQQ-Instructions h4 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.3em;
+    color: black;
+  }
+
+  .MQQ-Instructions p {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+  }
+
+  #MQQ-Img {
+    width: 300px;
+
+    height: auto;
+  }
 
 }
 
 
 @media only screen and (min-width: 1024px) {
 
+  .MQQ-Instructions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    height: 5em;
+    background-color: ;
+  }
 
+
+  .MQQ-Instructions h4 {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+    color: black;
+  }
+
+  .MQQ-Instructions p {
+    text-align: center;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+  }
+
+  #MQQ-Img {
+    width: 400px;
+
+    height: auto;
+  }
 
 }
