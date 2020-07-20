@@ -31,7 +31,7 @@ function handleWhosThereInputs () {
 
   const whosThereInput = document.getElementById('Whos-There-Input');
 
-  const letters = /^[A-Za-z" "?!]+$/;
+  const letters = /^[A-Za-z" "?!'']+$/;
 
   const who = " who?";
 
@@ -103,7 +103,7 @@ function handleEndResult () {
 
   const whoInput = document.getElementById('Who-Input');
 
-  const letters = /^[A-Za-z" "?!]+$/;
+  const letters = /^[A-Za-z" "?!'']+$/;
 
   if (whoInput.value.match(letters)) {
     randomResult();
