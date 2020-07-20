@@ -14,7 +14,7 @@ function handleKnockInputs () {
 
     if (removeSpace(knockKnockInput.value.toUpperCase()) === removeSpace(knockKnock.toUpperCase())) {
       document.getElementById("MQQ-Knock-Knock-Form").style.display = "none";
-      document.getElementById("MQQ-Img").src = "./Images/think.PNG";
+      document.getElementById("MQQ-Img").src = "./Images/think.svg";
       document.getElementById("MQQ-Whos-There-Form").style.display = "flex";
   }
     else {
@@ -42,12 +42,12 @@ function handleWhosThereInputs () {
     document.getElementById("MQQ-Who-Form").style.display = "flex";
   }
 
-  else if (whosThereInput.value === ""){
+  else if (whosThereInput.value === "" ) {
       alert("Please type something");
   }
 
   else {
-    alert("you suck")
+    alert("Letters only")
   }
 
 
@@ -83,7 +83,7 @@ function randomResult () {
 
     else {
       removeWhoDiv = document.getElementById("MQQ-Who-Form").style.display = "none";
-      updateImg = document.getElementById("MQQ-Img").src = "./Images/yawn.PNG";
+      updateImg = document.getElementById("MQQ-Img").src = "./Images/yawn.svg";
       updateEndResultH1 = document.getElementById('End-Result-h1').innerHTML = "You made Quackers Yawn";
       updateEndResultDiv = document.getElementById("End-Result").style.display = "flex";
       updateButton = document.getElementById('Result-Button').innerHTML = "Try Again?"
